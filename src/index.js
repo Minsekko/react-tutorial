@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import AAAA from './root.js';
-import A from './home.js';
 import reportWebVitals from './reportWebVitals';
-import Demo from './demo.js';
-import Onepiece from './Onepiece.js';
+import Root from './Root.js';
+import OnePiece from './OnePiece.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Onepiece />
+  <OnePiece />
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,16 +1,16 @@
-import OnepieceHeader from "./OnePieceHeader";
+import OnePieceHeader from "./OnePieceHeader";
 import OnePieceMain from "./OnePieceMain";
-import OnePieeceFoot from "./OnePieceFooter";
+import OnePieceFooter from "./OnePieceFooter"
 
-import "./Onepiece.css";
+import "./OnePiece.css";
 
-export default function Onepiece() {
+export default function OnePiece() {
 
     return (
         <>
-            <OnepieceHeader />
+            <OnePieceHeader title={"검은 수염 해적단"} />
             <OnePieceMain />
             <OnePieceFooter />
         </>
-    )
+    );
 }
