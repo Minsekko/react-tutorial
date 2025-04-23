@@ -4,7 +4,7 @@ export default function OnePieceMember({ emoji, name, role, desc }) {
             <div className="img-placeholder"> {emoji} </div>
             <div className="info">
                 <h2>{name}</h2>
-                <p><strong>{role}</strong>-{role}</p>
+                <p><strong>{role}</strong>-{desc}</p>
             </div>
         </div>
     );
